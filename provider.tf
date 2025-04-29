@@ -16,5 +16,5 @@ terraform {
 #Provider Block
 provider "aws" {
   region  = "us-east-1"     # Specifies the AWS region to deploy resources (e.g., N. Virginia).
-  profile = "default"       # Uses the AWS credentials profile named "default" from your local AWS credentials file (~/.aws/credentials).
+  #profile = "default"       # Uses the AWS credentials profile named "default" from your local AWS credentials file (~/.aws/credentials).
 }
